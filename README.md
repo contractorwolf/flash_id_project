@@ -138,3 +138,41 @@ While encountering issues with your ESP32-S3 or similar boards can be frustratin
 Remember, every challenge you overcome makes you a more skilled developer and embedded systems enthusiast. Don't be afraid to dig deep into the documentation and try advanced recovery methods when simpler solutions fail.
 
 Happy coding, and may your ESP32-S3 projects flourish!
+
+
+
+# PocketGPT using the Lilygo T-Deck
+## Arduino Tools Settings for the Lilygo T-deck
+<a href="images/device-blue.png" target="_blank">
+    <img src="images/device-blue.png" width="300">
+</a>
+<a href="images/devices-green-black.png" target="_blank">
+    <img src="images/devices-green-black.png" width="300">
+</a>
+<a href="images/devices-green-black-r-side.png" target="_blank">
+    <img src="images/devices-green-black-r-side.png" width="300">
+</a>
+
+
+
+PocketGPT is initially built on the ESP32Berry project from 0015:
+https://github.com/0015/ESP32Berry
+
+
+I made significant modifications to fit my use-case which is a custom GPT device that can maintain a converation thread through multiple requests (not available in the ESP32Berry project).
+I also needed to use OpenAI Assistants so that I could customize the style and reading levels of my two sons.  I created an OpenAI Assitant for each that would maintain a disposition
+and role that was appropriate to their age and would encourage curiosity, learning and reading as well as suggesting follow-up questions to keep the conversation going.  One Assitant speaks properly to a middle school age child, and one to a elementry school child (acts as a one-on-one teacher assitant almost) 
+
+
+
+
+
+## Arduino Tools Settings for the Lilygo T-deck
+<a href="images/arduino-t-deck-settings.png" target="_blank">
+    <img src="images/arduino-t-deck-settings.png" width="300">
+</a>
+
+
+reset esp32 when they get stuck:
+
+`C:\esp\flash_id_project>idf.py -p COM7 -D IDF_TARGET=esp32s3 flash`
