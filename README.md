@@ -17,7 +17,9 @@ In my case, I needed to perform a complete reflash of the board to restore its f
 
 Before we dive into the flashing process, let's take a moment to appreciate the unique device we're working with: the T-Deck.
 
-**[Click here for Google Image Search: LilyGO T-Deck ESP32-S3 full view](https://www.google.com/search?q=LilyGO+T-Deck+ESP32-S3+full+view&tbm=isch)**
+![LILYGO-T-Deck-ESP32-S3-LoRa-Module-2-8-inch-LCD-Development-Board-LoRaWAN-Long-Range](https://github.com/contractorwolf/flash_id_project/assets/4690960/237b51ab-4e3f-452a-bfb0-070ca1d9dcaf)
+
+
 
 The T-Deck in all its glory - a compact, feature-packed device based on the ESP32-S3.
 
@@ -28,8 +30,8 @@ The T-Deck is an innovative handheld device that combines the power of the ESP32
 3. A small joystick for navigation
 4. Built-in Wi-Fi and Bluetooth capabilities
 5. A microSD card slot for expandable storage
-
-**[Click here for Google Image Search: T-Deck ESP32 keyboard and display close-up](https://www.google.com/search?q=T-Deck+ESP32+keyboard+and+display+close-up&tbm=isch)**
+6. 
+![f10211753ea94f702918c1ef9fa1329b5da25d8a](https://github.com/contractorwolf/flash_id_project/assets/4690960/d426e7f5-e943-4e14-a52b-b179f2904367)
 
 The T-Deck's compact keyboard and vibrant display make it ideal for portable projects.
 
@@ -103,9 +105,13 @@ When flashing or developing for the T-Deck, keep these points in mind:
 
 3. **Bootloader Mode**: To enter bootloader mode on the T-Deck, you may need to hold a specific button combination while powering on the device. Consult the T-Deck documentation for the exact method.
 
-**[Click here for Google Image Search: LilyGO T-Deck side view USB-C port](https://www.google.com/search?q=LilyGO+T-Deck+side+view+USB-C+port&tbm=isch)**
+![PXL_20240618_145909483](https://github.com/contractorwolf/flash_id_project/assets/4690960/b44bc0ba-aa2e-4f3f-8ea8-b0ea3d76793e)
+
 
 The T-Deck's side profile, highlighting the USB-C port and programmable buttons.
+
+![PXL_20240619_204657879](https://github.com/contractorwolf/flash_id_project/assets/4690960/27d73ff6-55e8-48ce-afff-0a164431f353)
+
 
 4. **Display and Keyboard Testing**: After flashing, it's a good idea to test the integrated display and keyboard to ensure all components are functioning correctly.
 
