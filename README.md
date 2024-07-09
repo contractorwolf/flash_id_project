@@ -1,4 +1,4 @@
-# Resolving ESP32-S3 Issues on a T-Deck: A Deep Dive into Flashing and Recovery
+# Flashing and Recovery, Solving Issues on a T-Deck 
 
 As an embedded systems enthusiast, I recently encountered a challenging situation with my ESP32-S3 board, specifically the T-Deck. The device was stuck in a state that prevented me from deploying new code, likely due to a corrupted firmware or a problematic sketch. In this blog post, I'll walk you through the steps I took to recover the board and get it back to a functional state.
 
